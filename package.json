@@ -1,0 +1,23 @@
+{
+  "name": "webmonitor-server",
+  "version": "1.0.0",
+  "description": "Server-side application that monitors changes on a website and distributes this information through websockets",
+  "main": "server.js",
+  "author": "Steven Schoovaerts",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "socket.io": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}
